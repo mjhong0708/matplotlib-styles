@@ -1,0 +1,55 @@
+# Stylesheet for article figure.
+
+# Figure size
+figure.figsize : 4.95, 3.75  # (3.3 x 2.5) is for single column.
+
+# Font sizes
+axes.titlesize: 15
+axes.labelsize: 15
+xtick.labelsize: 12
+ytick.labelsize: 12
+legend.fontsize: 12.75
+font.size: 12
+
+# Tick style
+xtick.direction: in
+xtick.major.width: 1.4245
+xtick.major.size: 4.125
+xtick.minor.width: 1.4245
+xtick.minor.size: 2.4
+
+ytick.direction: in
+ytick.major.width: 1.4245
+ytick.major.size: 4.125
+ytick.minor.width: 1.4245
+ytick.minor.size: 2.4
+
+# legend
+legend.fancybox: False
+legend.edgecolor: none
+
+# Font Family
+font.family: Arial
+font.sans-serif: Arial, Helvetica, Lucida Grande, Verdana, Geneva, Lucid, Avant Garde, DejaVu Sans, sans-serif
+mathtext.rm: Arial
+
+# Set line widths
+axes.linewidth : 1.4245
+grid.linewidth : 0.6
+lines.linewidth : 1.2
+lines.markersize: 5.1
+
+# Always save as 'tight'
+savefig.dpi: 600
+savefig.bbox : tight
+savefig.pad_inches : 0.075  # Use virtually all space when we specify figure dimensions
+
+# LaTeX packages
+text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb} \usepackage{sfmath}
+
+# others
+figure.facecolor: white
+figure.subplot.wspace: 0.375
+figure.subplot.hspace: 0.375
+
+axes.labelpad: 6.0
